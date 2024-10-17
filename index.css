@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mooli", sans-serif;
+    background-color: #d5f2e3;
+    color: #003e1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    /* overflow: hidden; */
+    margin: 0;
+}
+
+h1 {
+    padding-bottom: 2rem;
+    color: #d90429;
+    text-align:center;
+}
+
+#inputSection {
+  padding-bottom: 1rem;
+  width:80%;
+  display:flex;
+  flex-direction:column;
+}
+
+#giftSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: red solid 2px;
+    width:80%;
+    background-color: #f3f7f0;
+    border-radius: .5rem;
+    margin-bottom: 1rem;  
+}
+
+label {
+  display: block;
+  margin: 1rem 0;
+}
+
+input[type=submit] {
+    display: block;
+    text-align: center;
+    background-color: #73ba9b;
+    color: #f3f7f0;
+    margin: 5px;
+    width: 70%;
+    border-radius: 30px;
+    height: 2em;
+    margin: 1.5rem auto; 
+}
+
+input[type=text] {
+    margin-left: 5px;
+}
+
+.gift-container,
+.price-container {
+  text-align: center;
+}
+
+ul.giftList, ul.priceList {
+  display: inline-block;
+ padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+#totalSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: red solid 2px;
+    width:80%;
+    background-color: #f3f7f0;
+    border-radius: .5rem;  
+}
